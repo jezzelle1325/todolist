@@ -1,0 +1,173 @@
+body {
+  background-image:  url("/images/anime_cats.png");
+  background-size: cover;
+  background-position: center;
+ 
+  /* Use your desired colors and angles */
+  font-family: Kalam;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.item-form {
+  border-bottom: 0px !important;
+  padding: 0px;
+  margin-left: 10px;
+}
+
+.item-form input {
+  text-align: center;
+  border-radius: 5px;
+  border: 0px;
+  width: 400px;
+  height: 50px;
+}
+/* 
+.item-form button {
+  width: 60px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #4285f4;
+  margin-left: 10px;
+} */
+
+.add-button{
+  border: none!important;
+  background: none;
+  padding:0px;
+  margin-left: 10px;
+  color: rgb(84, 230, 84);
+}
+
+
+
+button:focus,
+input:focus {
+  outline: none!important;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 255, 0.5)!important;
+}
+
+
+.items {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: rgb(243, 109, 196);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  text-align: center;
+}
+
+.box-input {
+  display: flex!important;
+  justify-content: space-between;
+  margin-bottom: 5px !important;
+  margin-top: 0px;
+  height: 50px; 
+}
+
+input[type="checkbox"]:checked + p {
+  text-decoration: line-through;
+}
+
+img{
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.delete-button{
+  color:rgb(210, 20, 20);
+  border: none!important;
+  background: none;
+  padding:0px;
+  margin-right: 10px;
+  }
+
+input[type="checkbox"] {
+width: 20px;
+height: 20px;
+cursor: pointer;
+margin-top: 5px;
+}
+
+.box-form {
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+}
+
+/* main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+} */
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 15px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 200px;
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+    background-color 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.nav-item svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  color: rgb(250, 53, 181);
+}
+
+.nav-item:hover,
+.nav-item svg:hover {
+  /* transform: translate(5px, -5px);  */
+  color: red;
+}
+
+.nav-item a {
+  color: #8d57ea !important;
+  font-size: 30px;
+}
+
+.nav-item {
+  display: flex !important;
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 1115px;
+  font-size: 20px;
+}
